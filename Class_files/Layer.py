@@ -1,9 +1,8 @@
 import numpy as np
 
-#TODO: Add momentum = 0, and always use momentum
 class Layer:
     """
-    The layer class contains the information about each layer that all other layers inherit form.
+    The layer class contains the information about each layer that all other layers inherit from.
     :param size: to indicate the size of the layer
     :param NETS: a vector of dimension (size x 1) numpy array --> definition in slides
     :param Y: a vector of dimensions (size x 1) numpy array --> f(NETS) - s.t f is the activation function of choice
